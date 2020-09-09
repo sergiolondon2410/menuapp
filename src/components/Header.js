@@ -4,7 +4,7 @@ function Header() {
     return (
         <header className="flex items-center justify-between py-2 border-b">
             <a href="#" className="px-2 lg:px-0 uppercase font-bold text-purple-800">
-                LOGO
+                Que QR Comer?
             </a>
                 <ul class="inline-flex items-center">
                     <li class="px-2 md:px-4">

@@ -1,8 +1,7 @@
 import React from "react";
 
-function Local() {
+function RestaurantList() {
     return (
-        
         <div class="rounded w-full lg:flex mb-10">
             <div class="h-48 lg:w-48 flex-none bg-cover text-center overflow-hidden opacity-75"
                 style = {{
@@ -35,4 +34,4 @@ function Local() {
     ); 
 }
 
-export default Local;
+export default RestaurantList;

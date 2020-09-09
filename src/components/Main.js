@@ -1,5 +1,6 @@
 import React from "react";
-import Local from "./Local";
+import RestaurantList from "./RestaurantList";
+import MenuList from "./MenuList";
 
 function Main() {
     return (
@@ -24,13 +25,8 @@ function Main() {
                     </div>
                 </a>
             </div>
-            <div class="block lg:flex lg:space-x-2 px-2 lg:p-0 mt-10 mb-10">
-                <div class="w-full lg:w-2/3">
-                    <Local/>
-                    <Local/>
-                    <Local/>
-                </div>
-            </div>
+            {/* <RestaurantList/> */}
+            <MenuList/>
         </main>
     ); 
 }
