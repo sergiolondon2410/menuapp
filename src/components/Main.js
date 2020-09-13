@@ -1,6 +1,6 @@
 import React from "react";
 import RestaurantList from "./RestaurantList";
-import MenuList from "./MenuList";
+import Menu from "./Menu";
 
 function Main() {
     return (
@@ -8,7 +8,7 @@ function Main() {
             <div className="block md:flex md:space-x-2 px-2 lg:p-0 mb-4 md:mb-0 w-full relative rounded inline-block">
                 <a 
                     className="mb-4 md:mb-0 w-full relative rounded inline-block" 
-                    style={{ height: 24 + 'em' }}
+                    style={{ height: 18 + 'em' }}
                     href="./blog.html"
                 >
                     <div className="absolute left-0 bottom-0 w-full h-full z-10"
@@ -26,7 +26,7 @@ function Main() {
                 </a>
             </div>
             {/* <RestaurantList/> */}
-            <MenuList/>
+            <Menu/>
         </main>
     ); 
 }
