@@ -17,7 +17,10 @@ function Main() {
                         }}
                     >
                     </div>
-                    <img src="https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" className="absolute left-0 top-0 w-full h-full rounded z-0 object-cover" />
+                    <img 
+                        src="https://images.unsplash.com/photo-1493770348161-369560ae357d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80"
+                        className="absolute left-0 top-0 w-full h-full rounded z-0 object-cover"
+                    />
                     <div className="p-4 absolute bottom-0 left-0 z-20">
                         <h2 className="text-4xl md:w-2/3 font-semibold text-gray-100 leading-tight">
                             Pellentesque a consectetur velit, ac molestie ipsum. Donec sodales, massa et auctor.
