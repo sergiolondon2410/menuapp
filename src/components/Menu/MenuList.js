@@ -1,5 +1,8 @@
 import React, {useState} from "react";
 import MenuListItem from "./MenuListItem";
+import TypeNav from "./TypeNav";
+import portrait from '../../resources/mm3.jpg';
+
 
 function MenuList() {
     const [products] = useState([
@@ -35,10 +38,19 @@ function MenuList() {
         }
     ])
     return (
-        <div className="px-10 grid grid-cols-4 gap-4">
-            {products.map((product, index) => (
-                <MenuListItem product={product} index={index} />
-            ))}
+        <div>
+            <div className="block md:flex md:space-x-2 px-2 lg:p-0 mb-4 md:mb-0 w-full relative rounded inline-block" style={{ height: 8 + 'em' }}> 
+            <img 
+                src={portrait}
+                className="absolute left-0 top-0 w-full h-full rounded z-0 object-cover"
+            />
+            </div>        
+            <TypeNav/>
+            <div className="px-10 grid grid-cols-4 gap-4">
+                {products.map((product, index) => (
+                    <MenuListItem product={product} index={index} />
+                ))}
+            </div>
         </div>
     ); 
 }

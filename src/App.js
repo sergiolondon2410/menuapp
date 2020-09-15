@@ -11,14 +11,14 @@ function App() {
   return (
       <Router>
         <div className="max-w-screen-xl mx-auto">
-          <Header />
+          {/* <Header /> */}
           {/* <Main /> */}
           <main>
-            <div className="block md:flex md:space-x-2 px-2 lg:p-0 mb-4 md:mb-0 w-full relative rounded inline-block">
+            {/* <div className="block md:flex md:space-x-2 px-2 lg:p-0 mb-4 md:mb-0 w-full relative rounded inline-block">
                 <a 
                     className="mb-4 md:mb-0 w-full relative rounded inline-block" 
-                    style={{ height: 18 + 'em' }}
-                    href="./blog.html"
+                    style={{ height: 10 + 'em' }}
+                    href=""
                 >
                     <div className="absolute left-0 bottom-0 w-full h-full z-10"
                         style = {{
@@ -32,11 +32,11 @@ function App() {
                     />
                     <div className="p-4 absolute bottom-0 left-0 z-20">
                         <h2 className="text-4xl md:w-2/3 font-semibold text-gray-100 leading-tight">
-                            Pellentesque a consectetur velit, ac molestie ipsum. Donec sodales, massa et auctor.
+                            Mighty Meals
                         </h2>
                     </div>
                 </a>
-            </div>
+            </div> */}
             <Route path="/" exact component={RestaurantList} />
             <Route path="/menu" component={Menu} />
             {/* <Route path="/menu/:id" component={RestaurantList} /> */}

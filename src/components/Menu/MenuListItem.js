@@ -17,9 +17,9 @@ function RestaurantList(product, index) {
                 <div className="py-5 px-5">
                     <span className="font-bold text-gray-800 text-lg">{product.product.name}</span>
                     <div className="flex items-center justify-between">
-                        <div className="text-sm text-gray-600 font-light">
+                        {/* <div className="text-sm text-gray-600 font-light">
                             Size : Regular
-                        </div>
+                        </div> */}
                         <div className="text-2xl text-red-600 font-bold">
                             {product.product.price}
                         </div>
